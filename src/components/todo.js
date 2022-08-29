@@ -20,6 +20,8 @@ export default function Todo({ item, onUpdate, onDelete }) {
         setIsEdit(false);
     }
 
+    //add some coments
+
     return (
       <form className="todoUpdateForm" onSubmit={handleSubmit}>
         <input type="text" className="todoInput" onChange={handleChange} value={newValue}/>
